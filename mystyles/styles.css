@@ -36,3 +36,12 @@
     white-space: nowrap;
     text-overflow:ellipsis;
   }
+
+.dropdown-item:hover {
+    background-image: none !important;
+    background-color: rgba(23, 37, 108, 0.53) !important;
+}
+
+.top_contaner {
+    position:relative;
+}   
