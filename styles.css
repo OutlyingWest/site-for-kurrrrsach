@@ -9,11 +9,25 @@
     margin-left: 10px; /* Отступ слева */
     padding-left: 10px; /* Расстояние от линии до текста */ 
 }
-.around_line { 
+.two_side_line { 
     border-left: 2px solid #ccc; /* Параметры линии */
-    border-right: 2px solid #ccc; /* Параметры линии */ 
+    border-right: 2px solid #ccc; /* Параметры линии */
+    padding-top: 50px; /* Расстояние от линии до текста  */ 
     padding-right: 10px; /* Расстояние от линии до текста  */
     padding-left: 10px; /* Расстояние от линии до текста */ 
+}
+
+.text_frame { 
+    border-left: 2px solid #ccc; /* Параметры линии */
+    border-top: 2px solid #ccc; /* Параметры линии */
+    border-right: 2px solid #ccc; /* Параметры линии */
+    border-bottom: 2px solid #ccc; /* Параметры линии */
+    padding-left: 60px; /* Расстояние от линии до текста */
+    padding-top: 50px; /* Расстояние от линии до текста  */ 
+    padding-right: 10px; /* Расстояние от линии до текста  */
+    padding-bottom: 50px; /* Расстояние от линии до текста  */
+    margin-top: 40px; /* Отступ сверху */ 
+    margin-bottom: 80px; /* Отступ снизу */
 }
 
 .bordered{
