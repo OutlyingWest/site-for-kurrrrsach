@@ -58,3 +58,8 @@
 .top_contaner {
     position:relative;
 }   
+
+html, body{
+    height: 100%;
+    overflow:hidden;
+}
