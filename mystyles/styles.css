@@ -9,6 +9,8 @@
     margin-left: 10px; /* Отступ слева */
     padding-left: 10px; /* Расстояние от линии до текста */ 
 }
+
+/* for borders of sheet */
 .two_side_line { 
     border-left: 2px solid #ccc; /* Параметры линии */
     border-right: 2px solid #ccc; /* Параметры линии */
