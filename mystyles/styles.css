@@ -59,3 +59,14 @@
     position:relative;
 }   
 
+/* for collapse content */
+.inpage_nav a {
+    margin-right: 10px;
+}
+.inpage_nav a:visited,
+.inpage_nav a:hover,
+.inpage_nav a:focus,
+.inpage_nav a:active {
+    color: rgb(0, 0, 0) !important; 
+}
+
