@@ -34,42 +34,13 @@
             <center>
                 Антивирусная</br>безопасность
             </center>
-
         </a>
-        <div class="dropdown">
-            <a
-                class="nav-link text-white"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-                href="#remote">
-                <center>
-                    Средства удаленного</br>
-                    управления компьютером
-                </center>
-            </a>
-            <ul class="dropdown-menu bg-dark">
-                <li>
-                    <a class="dropdown-item dropdown-item-my text-white-50" 
-                        href="rms.html">
-                        - Rms или Remote Utilities
-                    </a>
-                </li>
-                <li>
-                    <a class="dropdown-item text-white-50" 
-                        href="remotepc.html">
-                        - RemotePC
-                    </a>
-                </li>
-                <li>
-                    <a class="dropdown-item text-white-50" 
-                        href="putty.html">
-                        - PuTTY
-                    </a>
-                </li>
-            </ul>
-        </div>
-    
+        <a class="nav-link" id="nav-remote-pc-tab" data-bs-toggle="tab" href="#nav-remote-pc" role="tab" aria-controls="nav-remote-pc" aria-selected="false">
+            <center>
+                Средства удаленного</br>
+                управления компьютером
+            </center>
+        </a>
         <a class="nav-link" id="nav-desktop-tab" data-bs-toggle="tab" href="#nav-desktop" role="tab" aria-controls="nav-desktop" aria-selected="false">
             <center>
                 Cредства управления рабочим столом и</br>
@@ -127,20 +98,20 @@
             <div class="col-8">
                 <div class="text_frame">
                     <center>
-                    <h4>Что такое удаленное управление компьютером или же по-другому «удаленный доступ»?</h4></br>
+                        <h4>Что такое удаленное управление компьютером или же по-другому «удаленный доступ»?</h4></br>
                     </center>
                     <p>Удаленный доступ – это технология для осуществления удаленного управления компьютером с помощью интернета или локальной сети, а также для обмена файлами и данными.</p>
                     <p> Системные администраторы используют удаленный доступ для управления вверенной им системой, оперативного устранения сбоев в работе в дистанционном формате.</p>
                     <p>К примеру, можно управлять офисным компьютером со своего устройства так, как будто это одно устройство - с теми же программами, файлами и возможностями, достаточно будет установить с удаленным ПК интернет-соединение.</p>
                     <!-- collapse content -->
-                    <div class="nav navbar nav-pills inpage_nav nav-fill" id="nav-inpage" role="tablist">
-                        <a class="nav-link bg-light" id="nav-bitdef-tab" data-bs-toggle="tab" href="#nav-bitdef" role="tab" aria-controls="nav-bitdef" aria-selected="false">
+                    <div class="nav navbar nav-pills inpage_nav nav-fill" id="nav-inpage-antimalware" role="tablist">
+                        <a class="nav-link text-bg-primary" id="nav-bitdef-tab" data-bs-toggle="tab" href="#nav-bitdef" role="tab" aria-controls="nav-bitdef" aria-selected="false">
                             Bitdefender
                         </a>
-                        <a class="nav-link bg-light" id="nav-kasp-tab" data-bs-toggle="tab" href="#nav-kasp" role="tab" aria-controls="nav-kasp" aria-selected="false">
+                        <a class="nav-link text-bg-primary" id="nav-kasp-tab" data-bs-toggle="tab" href="#nav-kasp" role="tab" aria-controls="nav-kasp" aria-selected="false">
                             Касперский
                         </a>
-                        <a class="nav-link bg-light" id="nav-mcafee-tab" data-bs-toggle="tab" href="#nav-mcafee" role="tab" aria-controls="nav-mcafee" aria-selected="false">
+                        <a class="nav-link text-bg-primary" id="nav-mcafee-tab" data-bs-toggle="tab" href="#nav-mcafee" role="tab" aria-controls="nav-mcafee" aria-selected="false">
                             McAfee
                         </a>
                     </div>
@@ -153,15 +124,65 @@
                             </div>
                         </div>
                         <div class="tab-pane fade" id="nav-kasp" role="tabpanel" aria-labelledby="nav-kasp-tab">
-                            kasp
+                            <div class="card card-body rounded-4 bg-light"> <!-- border border-white -->
+                               kasp
+                            </div>
                         </div>
                         <div class="tab-pane fade" id="nav-mcafee" role="tabpanel" aria-labelledby="nav-mcafee-tab">
-                            mc
+                            <div class="card card-body rounded-4 bg-light"> <!-- border border-white -->
+                                mc
+                            </div>
                         </div>
                     </div>
                     <!-- /collapse content -->
                 </div>
-                
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="nav-remote-pc" role="tabpanel" aria-labelledby="nav-remote-pc-tab">
+        <div class="row g-0 justify-content-center contaner">
+            <div class="col-8">
+                <div class="text_frame">
+                    <center>
+                        <h4>Что такое удаленное управление компьютером?</h4>
+                    </center>
+                    <!-- collapse content -->
+                    <div class="nav navbar nav-pills inpage_nav nav-justified" id="nav-inpage-desktop" role="tablist">
+                        <a class="nav-link text-bg-primary" id="nav-rmtutil-tab" data-bs-toggle="tab" href="#nav-rmtutil" role="tab" aria-controls="nav-rmtutil" aria-selected="false">
+                            Rms или Remote Utilities
+                        </a>
+                        <a class="nav-link text-bg-primary" id="nav-rmtpc-tab" data-bs-toggle="tab" href="#nav-rmtpc" role="tab" aria-controls="nav-rmtpc" aria-selected="false">
+                            RemotePC
+                        </a>
+                        <a class="nav-link text-bg-primary" id="nav-putty-tab" data-bs-toggle="tab" href="#nav-putty" role="tab" aria-controls="nav-putty" aria-selected="false">
+                            PuTTY
+                        </a>
+                    </div>
+                    <div class="tab-content" id="nav-inpage-desktop">
+                        <div class="tab-pane fade" id="nav-rmtutil" role="tabpanel" aria-labelledby="nav-rmtutil-tab">
+                            <div class="card card-body rounded-4 bg-light"> <!-- border border-white -->
+                                <p>rmtutil</p>
+                                <p>rmtutil</p>
+                                <p>rmtutil</p>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-rmtpc" role="tabpanel" aria-labelledby="nav-rmtpc-tab">
+                            <div class="card card-body rounded-4 bg-light"> <!-- border border-white -->
+                                <p>rmtpc</p>
+                                <p>rmtpc</p>
+                                <p>rmtpc</p>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-putty" role="tabpanel" aria-labelledby="nav-putty-tab">
+                            <div class="card card-body rounded-4 bg-light"> <!-- border border-white -->
+                                <p>putty</p>
+                                <p>putty</p>
+                                <p>putty</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /collapse content -->
+                </div>
             </div>
         </div>
     </div>
@@ -170,12 +191,13 @@
             <div class="col-8">
                 <div class="text_frame">
                     <center>
-                    <h4>Что такое дополнительный рабочий стол?</h4>
+                        <h4>Что такое дополнительный рабочий стол?</h4>
                     </center>
                 </div>
             </div>
         </div>
     </div>
+    
     <div class="tab-pane fade" id="nav-liter" role="tabpanel" aria-labelledby="nav-liter-tab">
         <div class="row g-0 justify-content-center contaner">
             <div class="col-8">

@@ -56,16 +56,15 @@
     background-image: none !important;
     background-color: rgba(23, 37, 108, 0.53) !important;
 }
-
+c
 .top_contaner {
     position:relative;
 }   
 
-/* for collapse content */
+/* for collapse content on page*/
 .inpage_nav a {
     margin-right: 10px;
 }
-.inpage_nav a:visited,
 .inpage_nav a:hover,
 .inpage_nav a:focus,
 .inpage_nav a:active {
